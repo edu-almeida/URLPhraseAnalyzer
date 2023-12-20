@@ -12,19 +12,6 @@ cada palavra na frase.
 - Mostre o número de vezes que a frase digitada é repetida no console.
 - Mostre no console o número de vezes que cada palavra da frase é repetida.
 
-## Exemplo
-
-URL de entrada: https://exemplo.com
-Frase a procurar: exemplo de frase
-
-Resultados:
-
-``` bash
-"exemplo de frase" => repete 3 vezes
-"exemplo" => é repetido 5 vezes
-"de" => é repetido 8 vezes
-"frase" => é repetido 3 vezes
-``` 
 
 ## Configuração
 

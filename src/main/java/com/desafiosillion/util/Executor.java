@@ -1,4 +1,4 @@
-package com.desafiosillion;
+package com.desafiosillion.util;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -28,7 +28,6 @@ public class Executor {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
                 .build();
-
         try {
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
             return response.body();
